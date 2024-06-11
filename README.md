@@ -1,8 +1,6 @@
 # Revisão de Código com OpenAI GPT-4o
-
-Este projeto fornece uma função em Rust para enviar prompts para a API do OpenAI GPT-4o para revisão de código.# Git PR Diff Fetcher
-
-Este é um projeto em Rust que extrai as alterações de arquivos de um Pull Request (PR) do GitHub ou de um Merge Request (MR) do GitLab e formata essas alterações em um texto contínuo otimizado para análise por modelos de linguagem de inteligência artificial.
+ 
+Este é um projeto em Rust que extrai as alterações de arquivos de um Pull Request (PR) do GitHub ou de um Merge Request (MR) do GitLab e formata essas alterações em um texto contínuo otimizado para análise por modelos de linguagem de inteligência artificial. Com objetivo de enviar prompts para a API do OpenAI GPT-4o para revisão de código automático.
 
 ## Funcionalidades
 
