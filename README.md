@@ -48,7 +48,7 @@ Este é um projeto em Rust que extrai as alterações de arquivos de um Pull Req
 1. Configure o token do GitLab:
 
     ```sh
-    cargo run -- config token {seu_token_gitlab}
+    cargo run -- config gitlab_token {seu_token_gitlab}
     ```
 
 2. Configure o token do GitHub:
@@ -57,6 +57,11 @@ Este é um projeto em Rust que extrai as alterações de arquivos de um Pull Req
     cargo run -- config github_token {seu_token_github}
     ```
 
+3. Configure o token da OpenAi:
+
+    ```sh
+    cargo run -- config openai_token {seu_token_openai}
+    ```
 ### Executando o Programa
 
 1. Para rodar o programa com um link de PR do GitHub ou MR do GitLab:
